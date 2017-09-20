@@ -41,8 +41,7 @@ def log_and_print(message):
     print(log_entry)
 
 
-# deadline = "01.10.2017 - 00:05"
-deadline = "20.09.2017 - 11:31"
+deadline = "01.10.2017 - 00:05"
 now = datetime.now()
 run_at = datetime.strptime(deadline, "%d.%m.%Y - %H:%M")
 delay = (run_at - now).total_seconds()
